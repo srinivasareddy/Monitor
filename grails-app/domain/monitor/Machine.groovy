@@ -15,6 +15,8 @@ class Machine {
 	Date creationDate
 	Date lastActiveOn
 	String readingUnits
+	
+	
     static constraints = {
 		machineId blank:false, nullable:false, unique: true
 		code nullable:true
